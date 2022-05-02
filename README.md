@@ -37,6 +37,12 @@ save_pdf(pd.DataFrame,path_str)
 save_xlsx(pd.DataFrame,path_str)
 ```
 
+调用save_md函数，导出excel
+
+```python
+save_md(pd.DataFrame,path_str)
+```
+
 e.g.
 
 ```python
