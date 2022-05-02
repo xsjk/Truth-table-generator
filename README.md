@@ -44,7 +44,7 @@ res = ...
 save_pdf(res,'D:/output.pdf')
 ```
 
-![image-20220502083700237](.\example_output.png)
+![image-20220502083700237](https://github.com/xsjk/Truth-table-generator/raw/master/example_output.png)
 
 ## Requirements
 
