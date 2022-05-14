@@ -1,6 +1,6 @@
 # 真值表生成器
 
-做离散作业时顺手写的小工具，给逻辑表达式，生成真值表，导出pdf/excel/markdown
+做离散作业时顺手写的小工具，给逻辑表达式，生成真值表，导出latex/pdf/excel/markdown
 
 ## Usage
 
@@ -23,7 +23,7 @@ res = truth_table([a,b,c],{
 })
 ```
 
-逻辑运算表达式规则见[逻辑符号](###逻辑符号)
+逻辑运算表达式规则见[逻辑符号](https://github.com/xsjk/Truth-table-generator/blob/master/README.md#%E9%80%BB%E8%BE%91%E7%AC%A6%E5%8F%B7)
 
 ### 导出真值表
 
