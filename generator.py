@@ -19,7 +19,6 @@ def start_after_save(save):
         os.system(f'cmd /k start {fileName}')
     return save_and_start
 
-@start_after_save
 def save_tex(df,fileName):
     output = r"""
 \documentclass{article}

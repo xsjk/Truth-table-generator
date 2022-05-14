@@ -23,6 +23,8 @@ res = truth_table([a,b,c],{
 })
 ```
 
+逻辑运算表达式规则见[逻辑符号](###逻辑符号)
+
 ### 导出真值表
 
 调用save_tex函数，导出latex
@@ -57,6 +59,18 @@ save_pdf(res,'D:/output.pdf')
 ```
 
 ![image-20220502083700237](https://github.com/xsjk/Truth-table-generator/raw/master/example_output.png)
+
+### 逻辑符号
+
+| 含义   | 记法1    | 记法2 | 记法3        |
+| ------ | -------- | ----- | ------------ |
+| A且B   | A & B    | A ∧ B | A and B      |
+| A或B   | A \| B   | A ∨ B | A or B       |
+| A取反  | ~A 或 !A | ¬A    | not A        |
+| A蕴含B | A >> B   | A→B   | Implies(A,B) |
+
+
+
 
 ## Requirements
 
