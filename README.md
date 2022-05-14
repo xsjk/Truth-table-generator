@@ -25,22 +25,28 @@ res = truth_table([a,b,c],{
 
 ### 导出真值表
 
-调用save_pdf函数，导出pdf
+调用save_tex函数，导出latex
 
 ```python
-save_pdf(pd.DataFrame,path_str)
+save_latex(df:pd.DataFrame,path:str)
+```
+
+调用save_pdf函数，导出pdf （需将pdflatex加入环境变量）
+
+```python
+save_pdf(df:pd.DataFrame,path:str)
 ```
 
 调用save_xlsx函数，导出excel
 
 ```python
-save_xlsx(pd.DataFrame,path_str)
+save_xlsx(df:pd.DataFrame,path:str)
 ```
 
 调用save_md函数，导出markdown
 
 ```python
-save_md(pd.DataFrame,path_str)
+save_md(df:pd.DataFrame,path:str)
 ```
 
 e.g.
@@ -54,4 +60,6 @@ save_pdf(res,'D:/output.pdf')
 
 ## Requirements
 
-sympy	pandas	pdftex
+sympy（用于逻辑运算）
+pandas（用于列表，导出latex/excel）
+pdflatex（用于导出pdf）
