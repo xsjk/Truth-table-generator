@@ -9,7 +9,7 @@
 调用truth_table函数
 
 ```python
-df = truth_table(List[Symbol],Dict{name_str:expr_str})->pd.DataFrame
+df = truth_table([自变量,...],{标题:表达式,...})->pd.DataFrame
 ```
 
 e.g.

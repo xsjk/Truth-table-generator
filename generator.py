@@ -20,12 +20,7 @@ def start_after_save(save):
     return save_and_start
 
 def save_tex(df,fileName):
-    output = r"""
-\documentclass{article}
-\usepackage{booktabs}
-\begin{document}
-"""+df.to_latex().replace('{}','n')+r"""
-\end{document}"""
+    output = "\\documentclass{article}\n\\usepackage{booktabs}\n\\begin{document}\n"""+df.to_latex().replace('{}','n')+"\\end{document}"
     open(fileName,'w',encoding='utf-8').write(output)
 
 @start_after_save
