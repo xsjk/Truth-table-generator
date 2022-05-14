@@ -23,7 +23,7 @@ res = truth_table([a,b,c],{
 })
 ```
 
-逻辑运算表达式规则见[逻辑符号](https://github.com/xsjk/Truth-table-generator#%E9%80%BB%E8%BE%91%E7%AC%A6%E5%8F%B7)
+逻辑运算表达式规则见[逻辑符号](https://github.com/xsjk/Truth-table-generator#逻辑符号)
 
 ### 导出真值表
 
